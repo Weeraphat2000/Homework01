@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        a{
+            text-decoration: none;
+            border-right: 1px solid black;
+            padding-right: 3px;
+            margin: 3px;
+        }
+        form{
+            border: 1px solid;
+            border-radius: 5px;
+            margin: 15px;
+            padding: 20px;
+            width: 400px;
+        }
+        div{
+            margin: 10px;
+        }
+        input, select, textarea{
+            width: 100%;
+        }
+        textarea{
+            /* ไม่ให้เปลี่ยนขนาดของ text ได้ */
+            resize: none; 
+        }
+        
+    </style>
+</head>
+<body>
+    <a href="./index.html">Home</a>
+    <a href="./education.html">Education</a>
+    <a href="./work.html">Work Exprerience</a>
+    <a href="./contact.html">Contact Me</a>
+
+    <hr>
+    <h1>Contact Me</h1>
+    <form action="#">
+        <div>
+            <label for="#">Enter your info.</label>
+        </div>
+        <div>
+            <label for="name">Your name</label>
+            <br>
+            <input type="text" id="name" placeholder="English">
+        </div>
+        <div>
+            <label for="mail">Your E-mail</label>
+            <br>
+            <input type="text" id="mail" placeholder="English">
+        </div>
+        <div>
+            <label for="">Gender</label>
+            <br>
+            <select name="" id="">
+                <option value="">Male</option>
+                <option value="">Female</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Message</label>
+            <br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Address"></textarea>
+        </div>
+
+        <div>
+            <button type="submit">Send</button>
+            <button type="reset">Clear</button>
+        </div>
+    </form>
+
+
+
+
+
+</body>
+</html>
